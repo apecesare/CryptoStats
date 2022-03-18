@@ -20,7 +20,7 @@ updater = Updater(token=telegram_bot_token, use_context=True)
 dispatcher = updater.dispatcher
 
 up = Update
-mes = "Project by Alessandro Cicola \n[Please don't type commands. The bot won't respond (I'm updating)]"
+mes = "Project by Alessandro Cicola \n[Please don't type commands. The bot won't reply (I'm updating :D)]"
 
 #-------------------------------/start-------------------------------
 def start(update, context):
